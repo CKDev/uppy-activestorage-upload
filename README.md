@@ -15,7 +15,7 @@ Then use `ActiveStorageUpload` as an Uppy plugin in your Javascript pack with We
 
 ```js
 const Uppy = require('@uppy/core')
-const ActiveStorageUpload = require('@excid3/uppy-activestorage-upload')
+const ActiveStorageUpload = require('@CKDev/uppy-activestorage-upload')
 
 const uppy = Uppy()
 uppy.use(ActiveStorageUpload, {
@@ -26,9 +26,9 @@ uppy.use(ActiveStorageUpload, {
 ## Installation
 
 ```bash
-yarn add https://github.com/excid3/uppy-activestorage-upload
+yarn add https://github.com/CKDev/uppy-activestorage-upload
 or
-npm install https://github.com/excid3/uppy-activestorage-upload --save
+npm install https://github.com/CKDev/uppy-activestorage-upload --save
 ```
 
 We recommend installing from npm and then using a module bundler such as [Webpack](http://webpack.github.io/), [Browserify](http://browserify.org/) or [Rollup.js](http://rollupjs.org/).
